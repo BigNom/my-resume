@@ -13,3 +13,8 @@ profilepic 70x70 14.06kb  Compressing http://cameronwp.github.io/udportfolio/img
 Compressing https://lh6.ggpht.com/…Lf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100 could save 1.7KiB (36% reduction).
 Compressing https://lh4.ggpht.com/…2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100 could save 1.3KiB (31% reduction).
 Compressing https://lh5.ggpht.com/…9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100 could save 811B (23% reduction).
+
+## resized images
+16 requests
+596 B transferred
+finished 5.84s

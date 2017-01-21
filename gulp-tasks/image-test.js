@@ -1,7 +1,6 @@
 var gulp     = require("gulp");
 var mocha    = require("gulp-mocha");
 var sequence = require("run-sequence");
-
 var imageResize = require("../index.js");
 
 
@@ -10,7 +9,7 @@ gulp.task("mocha", ["image_resize"], function () {
     .pipe(mocha({ reporter: "spec" }));
 });
 
-
+// Run gulp image_resize
 
 var resizeTasks = [];
 
