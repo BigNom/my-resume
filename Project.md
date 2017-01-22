@@ -32,24 +32,21 @@ Compressing https://lh5.ggpht.com/…9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100 co
 1.0KB transferred
 finished 11.39s
 
-URL:       bignom.github.io/my-resume
-Strategy:  mobile
-Speed:     73
-Usability: 100
+# Removed fonts from head async js. HTTPS GA
 
-CSS size                                   | 3.65 kB
-HTML size                                  | 2.68 kB
-Image size                                 | 36.93 kB
-JavaScript size                            | 32.2 kB
-CSS resources                              | 3
-Hosts                                      | 8
-JS resources                               | 3
-Resources                                  | 15
-Static resources                           | 11
-Other size                                 | 29.26 kB
-Total size of request bytes sent           | 1.47 kB
+## mobile
+94/100
+### resized images
+73/100
 
-Leverage browser caching                   | 4.38
-Main resource server response time         | 0.27
-Minimize render blocking resources         | 32
-Optimize images                            | 0.42
+
+## Desktop
+34/100
+### resized images
+96/100
+
+## Network
+11 requests
+182B transferred
+finished 2.34s
+DOMCOntentLoaded: 152ms | load: 1.48s
