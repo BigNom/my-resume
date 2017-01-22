@@ -36,44 +36,9 @@ resize([
   "app/images/*.png",
   "app/images/*.jpg"
 ], "resize", {
-  width: 300
+  width: 100
 });
 
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "upscale", {
-  width: 600,
-  height: 0,
-  upscale: true
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "upscale2", {
-  width: 600,
-  height: 600,
-  upscale: true
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "no_upscale", {
-  width: 600,
-  upscale: false
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "no_upscale2", {
-  width: 100,
-  height: 600,
-  upscale: false
-});
 
 resize([
   "app/images/*.png",
@@ -85,98 +50,11 @@ resize([
   crop: true
 });
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "crop_gravity", {
-  width: 400,
-  height: 300,
-  upscale: false,
-  crop: true,
-  gravity: "NorthWest"
-});
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "crop_width_only", {
-  width: 300,
-  crop: true
-});
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "quality", {
-  width: 600,
-  height: 0,
-  upscale: false,
-  quality: 0.2
-});
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "sharpen", {
-  width: 600,
-  height: 0,
-  sharpen: true
-});
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "filter", {
-  width: 600,
-  height: 0,
-  filter: "catrom"
-});
 
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "samplingFactor", {
-  width: 600,
-  height: 0,
-  samplingFactor: [2,2]
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "convert", {
-  format: "jpg"
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "noProfile", {
-  noProfile: true
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "flatten", {
-  format: "jpg",
-  flatten: true
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "interlace", {
-  interlace: true
-});
-
-resize([
-  "app/images/*.png",
-  "app/images/*.jpg"
-], "interlace_and_resize", {
-  width: 400,
-  interlace: true
-});
 
 gulp.task("image_resize", resizeTasks);
 
