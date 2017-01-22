@@ -5,7 +5,7 @@ var options = {
   branch: 'gh-pages'
 };
 
-gulp.task('deploy', ['default'], function() {
+gulp.task('deploy', ['default', 'copy'], function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages(options));
 });
