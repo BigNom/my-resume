@@ -1,4 +1,5 @@
 node_modules
+app/bower_components
 dist/
 .tmp
 app.yaml
@@ -6,3 +7,4 @@ test
 tmp
 timeline/
 Project.md
+ngrok
